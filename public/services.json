@@ -1,0 +1,44 @@
+[
+   {
+      "_id": "01",
+      "picture": "https://img.freepik.com/free-photo/muscular-sportsman-building-biceps-with-dumbbell_7502-4784.jpg?size=626&ext=jpg&ga=GA1.2.150758045.1642948298",
+      "price": 80.77,
+      "name": "Muscle & Fitness",
+      "detail": "As the name would imply, Muscle & Fitness is narrowly focused around how to build your muscles and stay in shape."
+   },
+   {
+      "_id": "02",
+      "picture": "https://img.freepik.com/free-photo/bodybuilder-training-arm-with-resistance-band_7502-4758.jpg?size=626&ext=jpg&ga=GA1.2.150758045.1642948298",
+      "price": 29.59,
+      "name": "TRX",
+      "detail": "TRX is a form of suspension training that uses body weight exercises to develop strength, balance, flexibility and core stability simultaneously."
+   },
+   {
+      "_id": "03",
+      "picture": "https://img.freepik.com/free-photo/young-muscular-caucasian-woman-practicing-gym-with-equipment-wellness-healthy-lifestyle-bodybuilding_155003-14840.jpg?size=626&ext=jpg&ga=GA1.1.150758045.1642948298",
+      "price": 36.40,
+      "name": "Power Rack",
+      "detail": "Are you trying to gain size and strength in your home gym. Have you been afraid to go all out with a heavy barbell across your shoulders or hovering over your chest"
+   },
+   {
+      "_id": "04",
+      "picture": "https://img.freepik.com/free-photo/fit-young-woman-lifting-barbells-looking-focused-working-out-gym_155003-5353.jpg?size=626&ext=jpg&ga=GA1.1.150758045.1642948298",
+      "price": 41.60,
+      "name": "Pull Up Ber",
+      "detail": "To perform a pullup, you start by hanging onto a pullup bar with your palms facing away from you and your body extended fully."
+   },
+   {
+      "_id": "05",
+      "picture": "https://img.freepik.com/free-photo/young-adults-sport-gym-using-kettlebells_23-2149255806.jpg?size=626&ext=jpg&ga=GA1.2.150758045.1642948298",
+      "price": 21.00,
+      "name": "KETTLEBELL",
+      "detail": "The kettlebell is a cast iron or cast steel ball with a handle attached to the top resembling a cannonball with a handle."
+   },
+   {
+      "_id": "06",
+      "picture": "https://img.freepik.com/free-photo/close-up-man-training-with-kettlebell_23-2149307755.jpg?size=626&ext=jpg&ga=GA1.1.150758045.1642948298",
+      "price": 30.24,
+      "name": "DumBell Work",
+      "detail": "Dummbells stand are very necessary for commercial gyms and home gyms ."
+   }
+]

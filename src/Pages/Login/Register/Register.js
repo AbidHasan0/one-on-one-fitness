@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import './Register.css'
@@ -6,12 +6,13 @@ import auth from '../../../firebase.init'
 import SocialLogin from '../SocialLogin/SocialLogin';
 
 const Register = () => {
+   const [agree, setAgree] = useState(false);
    const [
       createUserWithEmailAndPassword,
       user,
       loading,
       error,
-   ] = useCreateUserWithEmailAndPassword(auth);
+   ] = useCreateUserWithEmailAndPassword(auth, { sendEmailVerification: true });
 
    const navigate = useNavigate();
 
@@ -28,8 +29,10 @@ const Register = () => {
       const name = event.target.name.value;
       const email = event.target.email.value;
       const password = event.target.password.value;
+      if (agree) {
+         createUserWithEmailAndPassword(email, password);
+      }
 
-      createUserWithEmailAndPassword(email, password);
    }
    return (
       <div className='register-form'>
@@ -41,7 +44,11 @@ const Register = () => {
 
             <input type="password" name="password" id="" placeholder='Your Password' required />
 
-            <input className='w-50 mx-auto btn btn-primary' type="submit" value="Register" />
+            <input onClick={() => setAgree(!agree)} type="checkbox" name="terms" id="terms" />
+            <label className={`ps-2 ${agree ? "" : "text-danger"}`} htmlFor="terms">Accept Terms and Condition</label>
+            <input
+               className='w-50 mx-auto btn btn-primary mt-2'
+               type="submit" value="Register" />
          </form>
          <p>Already have an Account?<Link to='/login' className='text-primary pe-auto text-decoration-none' onClick={navigateLogin}>Please Login</Link></p>
          <SocialLogin></SocialLogin>

@@ -15,30 +15,24 @@ const Header = () => {
 
       <>
 
-         <Navbar collapseOnSelect expand="lg" sticky='top' bg="primary" variant="dark">
+         <Navbar collapseOnSelect style={{ backgroundColor: 'coral' }} expand="lg" sticky='top' variant="dark">
             <Container>
-               <Navbar.Brand as={Link} to="/">ONE on ONE FITNESS</Navbar.Brand>
+               <Navbar.Brand as={Link} to="/"><span style={{ color: "indigo" }}>ONE on ONE FITNESS</span></Navbar.Brand>
                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                <Navbar.Collapse id="responsive-navbar-nav">
                   <Nav className="me-auto">
-                     <Nav.Link href='home#services'>Services</Nav.Link>
-                     <Nav.Link as={Link} to="/blogs">Blogs</Nav.Link>
-                     <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-                        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                        <NavDropdown.Divider />
-                        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-                     </NavDropdown>
+                     <Nav.Link href='home#services'><span style={{ color: 'ghostwhite' }}>Services</span></Nav.Link>
+                     <Nav.Link as={Link} to="/blogs"><span style={{ color: 'ghostwhite' }}>Blog</span></Nav.Link>
+
                   </Nav>
                   <Nav>
-                     <Nav.Link as={Link} to="/about">About</Nav.Link>
+                     <Nav.Link as={Link} to="/about"><span style={{ color: 'ghostwhite' }}>About</span></Nav.Link>
                      {
                         user ?
                            <button className='btn btn-link text-white text-decoration-none' onClick={handleSignOut}>Sign out</button>
                            :
                            <Nav.Link as={Link} to="/login">
-                              Login
+                              <span style={{ color: 'ghostwhite' }}>Login</span>
                            </Nav.Link>}
                   </Nav>
                </Navbar.Collapse>

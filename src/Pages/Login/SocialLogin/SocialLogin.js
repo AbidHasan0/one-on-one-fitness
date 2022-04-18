@@ -28,7 +28,6 @@ const SocialLogin = () => {
 
    }
 
-
    return (
       <div>
          <div className='d-flex align-items-center'>

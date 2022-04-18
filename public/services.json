@@ -2,14 +2,14 @@
    {
       "_id": "01",
       "picture": "https://img.freepik.com/free-photo/muscular-sportsman-building-biceps-with-dumbbell_7502-4784.jpg?size=626&ext=jpg&ga=GA1.2.150758045.1642948298",
-      "price": 80.77,
+      "price": 80.70,
       "name": "Muscle & Fitness",
       "detail": "As the name would imply, Muscle & Fitness is narrowly focused around how to build your muscles and stay in shape."
    },
    {
       "_id": "02",
       "picture": "https://img.freepik.com/free-photo/bodybuilder-training-arm-with-resistance-band_7502-4758.jpg?size=626&ext=jpg&ga=GA1.2.150758045.1642948298",
-      "price": 29.59,
+      "price": 29.50,
       "name": "TRX",
       "detail": "TRX is a form of suspension training that uses body weight exercises to develop strength, balance, flexibility and core stability simultaneously."
    },
@@ -37,7 +37,7 @@
    {
       "_id": "06",
       "picture": "https://img.freepik.com/free-photo/close-up-man-training-with-kettlebell_23-2149307755.jpg?size=626&ext=jpg&ga=GA1.1.150758045.1642948298",
-      "price": 30.24,
+      "price": 30.20,
       "name": "DumBell Work",
       "detail": "Dummbells stand are very necessary for commercial gyms and home gyms ."
    }

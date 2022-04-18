@@ -15,14 +15,14 @@ const Header = () => {
 
       <>
 
-         <Navbar collapseOnSelect style={{ backgroundColor: 'coral' }} expand="lg" sticky='top' variant="dark">
+         <Navbar collapseOnSelect style={{ backgroundColor: 'midnightblue' }} expand="lg" sticky='top' variant="dark">
             <Container>
-               <Navbar.Brand as={Link} to="/"><span style={{ color: "indigo" }}>ONE on ONE FITNESS</span></Navbar.Brand>
+               <Navbar.Brand as={Link} to="/"><span style={{ color: "crimson" }}>ONE on ONE FITNESS</span></Navbar.Brand>
                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                <Navbar.Collapse id="responsive-navbar-nav">
                   <Nav className="me-auto">
                      <Nav.Link href='home#services'><span style={{ color: 'ghostwhite' }}>Services</span></Nav.Link>
-                     <Nav.Link as={Link} to="/blogs"><span style={{ color: 'ghostwhite' }}>Blog</span></Nav.Link>
+                     <Nav.Link as={Link} to="/blog"><span style={{ color: 'ghostwhite' }}>Blog</span></Nav.Link>
 
                   </Nav>
                   <Nav>

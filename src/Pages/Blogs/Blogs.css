@@ -1,0 +1,23 @@
+.blog {
+   text-align: center;
+   color: brown;
+}
+
+.blog-header {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-gap: 10px;
+   background-color: gainsboro;
+
+}
+
+.blog-title {
+   border: 1px solid grey;
+   padding: 10px;
+   margin: 10px;
+
+}
+
+.blog-title h3 {
+   color: cornflowerblue;
+}

@@ -1,6 +1,6 @@
 # `ONE-ON-ONE-FITNESS`
 
-## [Live Link](one-on-one-fitness-9b849.web.app)
+## [Live Link](https://one-on-one-fitness-9b849.web.app/)
 
 * This project based on fitness review
 * You can see what is the pricing

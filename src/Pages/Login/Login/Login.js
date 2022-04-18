@@ -32,12 +32,10 @@ const Login = () => {
    }
    if (user) {
       navigate(form, { replace: true });
-
    }
 
    if (error) {
       errorElement = <p className='text-danger'>Error: {error?.message}</p>
-
    }
 
    const handleSubmit = (event) => {

@@ -1,6 +1,6 @@
 # `ONE-ON-ONE-FITNESS`
 
-## [Live Link](https://lively-phoenix-af3e87.netlify.app/)
+## [Live Link](one-on-one-fitness-9b849.web.app)
 
 * This project based on fitness review
 * You can see what is the pricing
